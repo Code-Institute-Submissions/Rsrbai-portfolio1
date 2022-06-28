@@ -8,15 +8,18 @@
 
 body {
     font-family: Inter, sans-serif;
-    color: rgb(58, 57, 57);
+    color: rgb(78, 103, 248);
     font-weight: 600;
+    background-color: black;
 }
 
 h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(47, 34, 235);
 }
+
+/* header */
 
 #head {
     float: left;
@@ -25,6 +28,7 @@ h1, h2 {
     margin: 5px 0 0 5px;
     letter-spacing: 10px;
 }
+
 /* nav links */
 #navm li {
     display: inline;
@@ -33,9 +37,11 @@ h1, h2 {
 #navm {
     float: right;
     list-style-type: none;
-    margin: 15px 10px 0 0;
+    margin: 20px 20px 0 0;
     letter-spacing: 3px;
 }
+
+/* hero image */
 
 #himg {
     height: 600px;
@@ -51,6 +57,13 @@ h1, h2 {
     overflow: hidden;
 }
 
+/* about */
 
+#about_head {
+    text-align: center;
+    font-size: 300%;
+}
 
-
+#about_div > p {
+    display: inline;
+}
