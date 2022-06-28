@@ -25,7 +25,7 @@ h1, h2 {
     margin: 5px 0 0 5px;
     letter-spacing: 10px;
 }
-
+/* nav links */
 #navm li {
     display: inline;
 }
@@ -36,5 +36,21 @@ h1, h2 {
     margin: 15px 10px 0 0;
     letter-spacing: 3px;
 }
+
+#himg {
+    height: 600px;
+    width: 100%;
+    background: url(../images/gaming_keyboard.jpg) no-repeat center center;
+    background-size: 100%;
+    
+}
+
+#himgs {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
 
 
