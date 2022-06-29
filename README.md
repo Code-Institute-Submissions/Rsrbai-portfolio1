@@ -41,6 +41,10 @@ Here we have our sign up page with a form to register for competitions and radio
 
 This bug was fixed the same way as bug 6 was fixed in the previous image. I copied the page over to avoid rewriting it but also copied this bug along with it and didnt fix it while addressing the bug in the previous image.
 
+![Image of bugs](assets/images/bug%20found.png)
+
+I fixed this by adding the iframe_link id to the iframe html on the form page to link it to the css rule.
+
 ## W3C and Jigsaw validation
 
 ![Image of W3C html validation](assets/images/W3C%20no%20errors.png)
