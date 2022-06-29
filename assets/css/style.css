@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 /* nav links */
-#navm li {
+ul li {
     display: inline;
 }
 
@@ -106,3 +106,18 @@ nav a:hover {
 }
 
 /* footer */
+
+footer {
+    height: 100px;
+    margin-top: 20px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+ul i {
+    font-size: 200%;
+    padding: 0 6% 0 6%;
+    margin: 30px;
+}
