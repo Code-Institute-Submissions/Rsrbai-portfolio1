@@ -72,12 +72,6 @@ nav a:hover {
     margin-top: 20px;
 }
 
-#about_p1, #about_p2 {
-    width: 500px;
-    text-align: center;
-    margin-top: 40px;
-}
-
 #about_head {
     text-align: center;
     font-size: 300%;
@@ -99,6 +93,7 @@ nav a:hover {
 
 #iframe_div {
     margin-top: 100px;
+    width: 100%;
 }
 
 #iframe {
@@ -107,6 +102,10 @@ nav a:hover {
 
 #footer_head {
     text-align: center;
+}
+
+#iframe_link {
+    width: 100%;
 }
 
 /* footer */
