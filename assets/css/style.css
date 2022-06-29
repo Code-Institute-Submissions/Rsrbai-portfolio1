@@ -89,8 +89,12 @@ h1, h2 {
 
 /* footer */
 
-#iframe {
+#iframe_div {
     margin-top: 100px;
+}
+
+#iframe {
+    margin-top: 10px;
 }
 
 #footer_head {
