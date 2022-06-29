@@ -59,8 +59,25 @@ h1, h2 {
 
 /* about */
 
+#about div {
+    text-align: center;
+    margin-top: 20px;
+}
+
 #about_head {
     text-align: center;
     font-size: 300%;
+}
+
+/* opening times */
+
+#times {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#times_head {
+    text-align: center;
+    margin-top: 50px;
 }
 
