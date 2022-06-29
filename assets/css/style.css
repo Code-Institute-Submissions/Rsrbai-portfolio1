@@ -19,7 +19,7 @@ h1, h2 {
     color: rgb(47, 34, 235);
 }
 
-/* header */
+/* header same process used as in Love running */
 
 #head {
     float: left;
@@ -49,7 +49,7 @@ nav a:hover {
     color: white;
 }
 
-/* hero image */
+/* hero image same process used as in Love running */
 
 #himg {
     height: 600px;
@@ -147,7 +147,7 @@ i:hover {
     background-color: blue;
 }
 
-/* for screen sizes under 700px */
+/* for screen sizes under 700px implemented using the same process as in Love Running */
 
 @media only screen and (max-width: 700px) {
     .signup_form h1 {
