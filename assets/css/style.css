@@ -64,6 +64,12 @@ h1, h2 {
     margin-top: 20px;
 }
 
+#about_p1, #about_p2 {
+    width: 500px;
+    text-align: center;
+    mar
+}
+
 #about_head {
     text-align: center;
     font-size: 300%;
