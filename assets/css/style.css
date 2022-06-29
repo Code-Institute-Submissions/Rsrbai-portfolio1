@@ -56,7 +56,6 @@ nav a:hover {
     width: 100%;
     background: url(../images/gaming_keyboard.jpg) no-repeat center center;
     background-size: 100%;
-    
 }
 
 #himgs {
@@ -146,4 +145,12 @@ i:hover {
     height: 75px;
     font-size: 150%;
     background-color: blue;
+}
+
+/* for screen sizes under 700px */
+
+@media only screen and (max-width: 700px) {
+    .signup_form h1 {
+        padding-top: 100px;
+    }
 }
