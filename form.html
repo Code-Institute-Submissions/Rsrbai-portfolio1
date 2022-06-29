@@ -29,10 +29,11 @@
             </ul>
         </nav>
     </header>
+    <!-- form used copied from love running -->
     <form class="signup_form" method="POST">
         <h1>Sign up and tell us what you want to play!</h1>
         <label for="fname">First Name</label>
-        <input id="fname" type="text" name="first_name" required class="text-input" placeholder="Your Fist Name">
+        <input id="fname" type="text" name="first_name" required class="text-input" placeholder="Your First Name">
         <br>
         <label for="lname">Last Name</label>
         <input id="lname" type="text" name="last_name" required class="text-input" placeholder="Your Last Name">
@@ -40,7 +41,12 @@
         <label for="email">Email Address</label>
         <input id="email" type="email" name="email_address" required class="text-input" placeholder="Your Email Address">
         <br>
-        
+        <label for="computer">PC</label>
+        <input id="computer" type="radio" name="gaming_preference" value="computer" required>
+        <label for="console">Console</label>
+        <input id="console" type="radio" name="gaming_preference" value="console">
+        <label for="both">Both</label>
+        <input id="both" type="radio" name="gaming_preference" value="both">
 
         <input id="submit" type="submit" value="Game Now!">
     </form>
