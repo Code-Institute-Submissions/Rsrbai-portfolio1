@@ -67,7 +67,7 @@ h1, h2 {
 #about_p1, #about_p2 {
     width: 500px;
     text-align: center;
-    mar
+    margin-top: 40px;
 }
 
 #about_head {
@@ -87,3 +87,12 @@ h1, h2 {
     margin-top: 50px;
 }
 
+/* footer */
+
+#iframe {
+    margin-top: 100px;
+}
+
+#footer_head {
+    text-align: center;
+}
