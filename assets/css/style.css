@@ -41,8 +41,12 @@ ul li {
     letter-spacing: 3px;
 }
 
-nav a:hover {
+nav a {
     text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
 }
 
 /* hero image */
@@ -120,4 +124,27 @@ ul i {
     font-size: 200%;
     padding: 0 6% 0 6%;
     margin: 30px;
+}
+
+i:hover {
+    color: white;
+}
+
+/* sign up form */
+
+.signup_form {
+    text-align: center;
+    padding: 10%;
+}
+
+.signup_form input {
+    text-align: center;
+    margin: 20px;
+}
+
+#submit {
+    width: 150px;
+    height: 75px;
+    font-size: 150%;
+    background-color: blue;
 }
