@@ -41,6 +41,10 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
+nav a:hover {
+    text-decoration: none;
+}
+
 /* hero image */
 
 #himg {
@@ -87,7 +91,7 @@ h1, h2 {
     margin-top: 50px;
 }
 
-/* footer */
+/* iframe */
 
 #iframe_div {
     margin-top: 100px;
@@ -100,3 +104,5 @@ h1, h2 {
 #footer_head {
     text-align: center;
 }
+
+/* footer */
